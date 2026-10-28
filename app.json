@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "MyApp2",
+    "slug": "MyApp2",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "package": "com.mountsea.MyApp2"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f34fcbbc-8549-45cc-9638-f93f0e9cb844"
+      }
+    },
+    "plugins": [
+      "expo-font"
+    ]
+  }
+}
